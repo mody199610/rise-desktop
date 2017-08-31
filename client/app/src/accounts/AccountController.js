@@ -727,7 +727,7 @@
           .ok(gettextCatalog.getString('Add'))
           .cancel(gettextCatalog.getString('Cancel'));
       $mdDialog.show(confirm).then(function(address) {
-        var isAddress = /^[0-9]{1,21}[R|r]$/g;
+        var isAddress = /^[0-9]{1,21}[X|x]$/g;
         if(isAddress.test(address)){
           accountService.fetchAccount(address).then(function(account){
             self.accounts.push(account);

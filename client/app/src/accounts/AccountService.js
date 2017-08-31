@@ -343,7 +343,7 @@
     function createTransaction(type,config){
       var deferred = $q.defer();
       if(type==0){ //send rise
-        var isAddress = /^[0-9]{1,21}[R|r]$/g;
+        var isAddress = /^[0-9]{1,21}[X|x]$/g;
         if(!isAddress.test(config.toAddress)){
           deferred.reject(gettextCatalog.getString("The destination address ")+config.toAddress+gettextCatalog.getString(" is erroneous"));
           return deferred.promise;

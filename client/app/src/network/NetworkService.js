@@ -80,25 +80,25 @@
       if(!n){
         n = {
           mainnet:{ 
-            nethash:'cd8171332c012514864edd8eb6f68fc3ea6cb2afbaf21c56e12751022684cea5',
-            peerseed:'http://core1.rise.vision:5555',
+            nethash:'4c1170a3edb03f961e5e3f7cedcd25563f0a46ec4aa3342715d09c47b398ea19',
+            peerseed:'http://13.93.214.252:10000',
             forcepeer: true,
-            token: 'RISE',
-            symbol: 'Ɍ',
+            token: 'OXY',
+            symbol: 'X',
             //version: 0x3C,
-            explorer: 'https://explorer.rise.vision',
+            explorer: 'https://explorer.oxycoin.io',
             exchanges: {
               //changer: "rise_RISE"
             },
             background:"url(assets/images/Rise-background.jpg)"
           },
           testnet:{
-            nethash:'e90d39ac200c495b97deb6d9700745177c7fc4aa80a404108ec820cbeced054c',
-            peerseed:'http://testnode1.rise.vision:5566',
-            token: 'TESTRISE',
-            symbol: 'Ɍ',
+            nethash:'0daee950841005a3f56f6588b4b084695f0d74aaa38b21edab73446064638552',
+            peerseed:'http://13.64.235.165:9998',
+            token: 'TESTOXY',
+            symbol: 'X',
             //version: 0x42,
-            explorer: 'https://texplorer.rise.vision',
+            explorer: 'https://texplorer.oxycoin.io',
             background:"url(assets/images/Rise-background.jpg)"
           }
         };
